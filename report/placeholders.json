@@ -1,0 +1,314 @@
+[
+ {
+  "id": "summary.budget.year",
+  "hint": "2026년도 총 연구개발비(천원) 및 정부지원/기관부담 내역"
+ },
+ {
+  "id": "summary.year.content",
+  "hint": "당해연도(2026) 수행 내용 요약 (3-5 세부수행 실적의 요약)"
+ },
+ {
+  "id": "summary.result",
+  "hint": "연구개발성과 요약 (핵심 결과 2~4문장)"
+ },
+ {
+  "id": "summary.utilization",
+  "hint": "성과 활용계획 및 기대효과"
+ },
+ {
+  "id": "3-1.row1.summary",
+  "hint": "목표1 실적요약"
+ },
+ {
+  "id": "3-1.row1.pct",
+  "hint": "목표1 달성도(%)"
+ },
+ {
+  "id": "3-1.row1.evidence",
+  "hint": "목표1 관련증빙(논문/학회/보고서 n건)"
+ },
+ {
+  "id": "3-1.row2.summary",
+  "hint": "목표2 실적요약"
+ },
+ {
+  "id": "3-1.row2.pct",
+  "hint": "목표2 달성도(%)"
+ },
+ {
+  "id": "3-1.row2.evidence",
+  "hint": "목표2 관련증빙(논문/학회/보고서 n건)"
+ },
+ {
+  "id": "3-1.row3.summary",
+  "hint": "목표3 실적요약"
+ },
+ {
+  "id": "3-1.row3.pct",
+  "hint": "목표3 달성도(%)"
+ },
+ {
+  "id": "3-1.row3.evidence",
+  "hint": "목표3 관련증빙(논문/학회/보고서 n건)"
+ },
+ {
+  "id": "att1.row1.summary",
+  "hint": "목표1 실적요약"
+ },
+ {
+  "id": "att1.row1.pct",
+  "hint": "목표1 달성도(%)"
+ },
+ {
+  "id": "att1.row1.evidence",
+  "hint": "목표1 관련증빙(논문/학회/보고서 n건)"
+ },
+ {
+  "id": "att1.row2.summary",
+  "hint": "목표2 실적요약"
+ },
+ {
+  "id": "att1.row2.pct",
+  "hint": "목표2 달성도(%)"
+ },
+ {
+  "id": "att1.row2.evidence",
+  "hint": "목표2 관련증빙(논문/학회/보고서 n건)"
+ },
+ {
+  "id": "att1.row3.summary",
+  "hint": "목표3 실적요약"
+ },
+ {
+  "id": "att1.row3.pct",
+  "hint": "목표3 달성도(%)"
+ },
+ {
+  "id": "att1.row3.evidence",
+  "hint": "목표3 관련증빙(논문/학회/보고서 n건)"
+ },
+ {
+  "id": "3-3.paper.col1",
+  "hint": "논문 표 1행: 열 순서는 표 머리말 기준"
+ },
+ {
+  "id": "3-3.paper.col2",
+  "hint": "논문 표 1행: 열 순서는 표 머리말 기준"
+ },
+ {
+  "id": "3-3.paper.col3",
+  "hint": "논문 표 1행: 열 순서는 표 머리말 기준"
+ },
+ {
+  "id": "3-3.paper.col4",
+  "hint": "논문 표 1행: 열 순서는 표 머리말 기준"
+ },
+ {
+  "id": "3-3.paper.col5",
+  "hint": "논문 표 1행: 열 순서는 표 머리말 기준"
+ },
+ {
+  "id": "3-3.paper.col6",
+  "hint": "논문 표 1행: 열 순서는 표 머리말 기준"
+ },
+ {
+  "id": "3-3.paper.col7",
+  "hint": "논문 표 1행: 열 순서는 표 머리말 기준"
+ },
+ {
+  "id": "3-3.paper.col8",
+  "hint": "논문 표 1행: 열 순서는 표 머리말 기준"
+ },
+ {
+  "id": "3-3.paper.col9",
+  "hint": "논문 표 1행: 열 순서는 표 머리말 기준"
+ },
+ {
+  "id": "3-3.paper.col10",
+  "hint": "논문 표 1행: 열 순서는 표 머리말 기준"
+ },
+ {
+  "id": "3-3.conf.col1",
+  "hint": "학술회의 표 1행"
+ },
+ {
+  "id": "3-3.conf.col2",
+  "hint": "학술회의 표 1행"
+ },
+ {
+  "id": "3-3.conf.col3",
+  "hint": "학술회의 표 1행"
+ },
+ {
+  "id": "3-3.conf.col4",
+  "hint": "학술회의 표 1행"
+ },
+ {
+  "id": "3-3.conf.col5",
+  "hint": "학술회의 표 1행"
+ },
+ {
+  "id": "3-3.conf.col6",
+  "hint": "학술회의 표 1행"
+ },
+ {
+  "id": "3-3.intl.col1",
+  "hint": "국제화 협력성과 표 1행"
+ },
+ {
+  "id": "3-3.intl.col2",
+  "hint": "국제화 협력성과 표 1행"
+ },
+ {
+  "id": "3-3.intl.col3",
+  "hint": "국제화 협력성과 표 1행"
+ },
+ {
+  "id": "3-3.intl.col4",
+  "hint": "국제화 협력성과 표 1행"
+ },
+ {
+  "id": "3-3.intl.col5",
+  "hint": "국제화 협력성과 표 1행"
+ },
+ {
+  "id": "3-3.intl.col6",
+  "hint": "국제화 협력성과 표 1행"
+ },
+ {
+  "id": "3-3.award.col1",
+  "hint": "포상 및 수상 표 1행"
+ },
+ {
+  "id": "3-3.award.col2",
+  "hint": "포상 및 수상 표 1행"
+ },
+ {
+  "id": "3-3.award.col3",
+  "hint": "포상 및 수상 표 1행"
+ },
+ {
+  "id": "3-3.award.col4",
+  "hint": "포상 및 수상 표 1행"
+ },
+ {
+  "id": "3-3.award.col5",
+  "hint": "포상 및 수상 표 1행"
+ },
+ {
+  "id": "3-3.award.col6",
+  "hint": "포상 및 수상 표 1행"
+ },
+ {
+  "id": "3-3.paper.pending",
+  "hint": "투고중/투고예정 논문 목록(저자, 제목, 저널, 상태)"
+ },
+ {
+  "id": "3-5.A.1.title",
+  "hint": "소제목"
+ },
+ {
+  "id": "3-5.A.1.body",
+  "hint": "목적/계산조건/결과/그림 인용 (그림 번호는 3-5 전체 통일)"
+ },
+ {
+  "id": "3-5.A.2.title",
+  "hint": "소제목(해당 시)"
+ },
+ {
+  "id": "3-5.A.2.body",
+  "hint": "본문"
+ },
+ {
+  "id": "3-5.B.1.title",
+  "hint": "소제목"
+ },
+ {
+  "id": "3-5.B.1.body",
+  "hint": "본문"
+ },
+ {
+  "id": "3-5.B.2.title",
+  "hint": "소제목(해당 시)"
+ },
+ {
+  "id": "3-5.B.2.body",
+  "hint": "본문"
+ },
+ {
+  "id": "3-5.C.1.title",
+  "hint": "소제목"
+ },
+ {
+  "id": "3-5.C.1.body",
+  "hint": "본문 (실험 vs SOLPS-ITER 비교)"
+ },
+ {
+  "id": "3-5.C.2.title",
+  "hint": "소제목(해당 시)"
+ },
+ {
+  "id": "3-5.C.2.body",
+  "hint": "본문"
+ },
+ {
+  "id": "3-5.D.title",
+  "hint": "기타 수행 실적(진단계 개선·불순물 수송 등, 해당 시 작성)"
+ },
+ {
+  "id": "3-5.D.1.title",
+  "hint": "소제목"
+ },
+ {
+  "id": "3-5.D.1.body",
+  "hint": "본문"
+ },
+ {
+  "id": "att1.evidence1",
+  "hint": "목표1 관련증빙 명칭 목록"
+ },
+ {
+  "id": "att1.evidence2",
+  "hint": "목표2 관련증빙 명칭 목록"
+ },
+ {
+  "id": "att1.evidence3",
+  "hint": "목표3 관련증빙 명칭 목록"
+ },
+ {
+  "id": "att2.1.goal",
+  "hint": "성과 목표"
+ },
+ {
+  "id": "att2.1.result",
+  "hint": "주요성과 (-로 세부 설명)"
+ },
+ {
+  "id": "att2.1.impact",
+  "hint": "활용방안/기대효과"
+ },
+ {
+  "id": "att2.2.goal",
+  "hint": "성과 목표"
+ },
+ {
+  "id": "att2.2.result",
+  "hint": "주요성과 (-로 세부 설명)"
+ },
+ {
+  "id": "att2.2.impact",
+  "hint": "활용방안/기대효과"
+ },
+ {
+  "id": "att2.3.goal",
+  "hint": "성과 목표"
+ },
+ {
+  "id": "att2.3.result",
+  "hint": "주요성과 (-로 세부 설명)"
+ },
+ {
+  "id": "att2.3.impact",
+  "hint": "활용방안/기대효과"
+ }
+]
