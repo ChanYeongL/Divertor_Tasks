@@ -4,14 +4,16 @@
 서버 에이전트의 임무: 계산 결과(데이터)를 받아 뼈대의 `[DATA:<id>]` 자리표시자를 **그대로** 채운다.
 
 ## 파일
+- `report/2026_최종연차보고서_2세부_upload.hwpx` — **작업 기준 파일**(그림 제거본). 그림 자리마다 `[FIGURE:<id>]` 안내 문단이 있고, 그 문단에 들어갈 그림과 필요한 데이터가 적혀 있다. 그림을 넣으면 안내 문단은 삭제하고 캡션 "그림 n. …"을 쓴다.
+- `report/figure_slots.json` — `[FIGURE:<id>]` 목록: 기존 그림 설명, 필요한 데이터, 참고 슬라이드.
+- `report/slides_reference.md` — 2026 최종연도 발표자료 요약(논문·수상·발표 실적, 5차년도 잔여계획). 5차년도 결과로 옮겨 쓰지 말 것.
 - `report/2026_최종연차보고서_2세부_skeleton.hwp` — 2025 보고서(v2.1) 서식을 유지한 뼈대. 원본은 수정하지 말고 복사본에 작성.
 - `report/placeholders.json` — 자리표시자 id 목록과 채울 내용 힌트(`hint`).
 - `tools/build_skeleton.py` — 뼈대 생성 스크립트(2025 보고서에서 파생). 서버에서 재실행할 필요 없음.
 
 ## 환경 준비
 1. `easy-hwp` 플러그인 설치: `/plugin marketplace add nathankim0/easy-hwp` → `/plugin install easy-hwp@easy-hwp`
-2. HWP 편집은 반드시 해당 스킬의 `scripts/edit.mjs`를 사용한다 (임시 복사본 편집 후 검증되면 교체).
-   `node <skill>/scripts/edit.mjs in.hwp out.hwp ops.json`
+2. `.hwpx`는 스킬의 `scripts/hwpx-edit.js`(연산 목록: `references/hwpx-edit-ops.md`)로, `.hwp`는 `scripts/edit.mjs`로 편집한다. 임시 복사본을 편집하고 검증한 뒤 교체한다.
 3. 한글 파일명은 한 개의 인자로 전달하고 개행 문자가 들어간 경로는 거부한다.
 
 ## 작성 절차
