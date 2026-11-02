@@ -59,13 +59,15 @@ def cell(t, r, c, s):
         if k:
             op["cell_para"] = k
         text.append(op)
-    text[-1]["collapse"] = True
 
 def drop_rows(t, rows):
+    """Row deletion corrupts the file in Hancom; blank those rows' cells instead."""
     tb = tables[t]
-    for r in sorted(rows, reverse=True):
-        structure.append({"type": "delete_table_row", "section": tb["sec"],
-                          "para": tb["para"], "control": tb["ctrl"], "row": r})
+    for r in rows:
+        for x in tb["cells"]:
+            if x["row"] == r and x["text"].strip() and "\n" not in x["text"]:
+                text.append({"type": "set_cell_text", "section": tb["sec"], "para": tb["para"],
+                             "control": tb["ctrl"], "row": r, "col": x["col"], "text": ""})
 
 def body(old_prefix, new):
     q = [l for l in lines if l.startswith(old_prefix)]
@@ -149,9 +151,7 @@ for i, l in enumerate(region):
         continue
     seen.add(l)
     if "()" in l or re.search(r"\S  \S", l):
-        pieces = [x.strip() for x in re.split(r"\(\)|\s{2,}", l) if len(x.strip()) > 1]
-        for k, piece in enumerate(pieces):
-            text.append({"type": "replace_text", "query": piece, "replacement": new.get(i, "") if k == 0 else ""})
+        continue  # equation objects inside: piecewise replace risks corruption; left for manual cleanup
     else:
         text.append({"type": "replace_text", "query": l, "replacement": new.get(i, "")})
 
